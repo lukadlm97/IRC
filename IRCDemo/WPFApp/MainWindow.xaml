@@ -26,6 +26,7 @@
                    VerticalAlignment="Bottom"
                    Margin="5" />
         <TextBox Grid.Column="1"
+                 Name="UserName"
                  Width="250"
                  Height="20"
                  HorizontalAlignment="Left"
@@ -39,11 +40,13 @@
         <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
             <RadioButton 
                 GroupName="Sex" 
-                Content="Male" 
+                Name="Male" 
+                Content="Male"
                 Margin="5"
                 IsChecked="True" />
             <RadioButton GroupName="Sex" 
-                         Content="Female" 
+                         Name="Female" 
+                         Content="Female"
                          Margin="5"/>
         </StackPanel>
         <TextBlock Text="Do you own"
@@ -56,20 +59,22 @@
                     Grid.Column="2"
                     VerticalAlignment="Bottom"
                     HorizontalAlignment="Left">
-            <CheckBox Content="Desktop" Margin="5"/>
-            <CheckBox Content="Laptop" Margin="5"/>
-            <CheckBox Content="Tablet" Margin="5"/>
+            <CheckBox Content="Desktop" Name="Desktop" Margin="5"/>
+            <CheckBox Content="Laptop" Name="Laptop" Margin="5"/>
+            <CheckBox Content="Tablet" Name="Tablet" Margin="5"/>
         </StackPanel>
         <TextBlock Text="Your job"
                   Grid.Row="3"
                   HorizontalAlignment="Right"
                   VerticalAlignment="Bottom"
                   Margin="5"/>
-        <ComboBox Grid.Row="3"
+        <ComboBox Name="Job"
+                  Grid.Row="3"
                   Grid.Column="1"
                   HorizontalAlignment="Left"
                   VerticalAlignment="Bottom"
-                  Margin="5">
+                  Margin="5"
+                  SelectionChanged="Job_SelectionChanged">
             <ComboBoxItem Content="Programmer"/>
             <ComboBoxItem Content="Designer"/>
             <ComboBoxItem Content="Manager"/>
@@ -79,12 +84,20 @@
         <TextBlock Text="Promised Delivery Date"
                Grid.Row="4"
                HorizontalAlignment="Right"
-               VerticalAlignment="Bottom"
+               VerticalAlignment="Center"
                Margin="5"/>
-        <Calendar Grid.Row="4" Grid.Column="1"
+        <Calendar Name="DeliveryDate"
+                  Grid.Row="4" Grid.Column="1"
                   Margin="5"
                   HorizontalAlignment="Left"/>
-
+        <Button Content="Save"
+                Name="SaveButton"
+            Grid.Row="5"
+            Grid.Column="0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+                Margin="5"
+                Click="SaveButton_Click"/>
 
     </Grid>
 </Window>
