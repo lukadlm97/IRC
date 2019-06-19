@@ -6,12 +6,13 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfAppOneWayBinding
+namespace WpfAppDataBindingTwoWay
 {
-    public class Employee: INotifyPropertyChanged
+    public class Employee : INotifyPropertyChanged
     {
         private string name;
-        public string Name {
+        public string Name
+        {
             get { return name; }
             set
             {
@@ -34,11 +35,11 @@ namespace WpfAppOneWayBinding
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-                private void OnPropertyChangedEventHandler([CallerMemberName]string caller="")
+        private void OnPropertyChangedEventHandler([CallerMemberName]string caller = "")
         {
-            if(PropertyChanged != null)
+            if (PropertyChanged != null)
             {
-                PropertyChanged(this,new PropertyChangedEventArgs(caller));
+                PropertyChanged(this, new PropertyChangedEventArgs(caller));
             }
         }
         public static Employee GetEmployee()
@@ -46,6 +47,6 @@ namespace WpfAppOneWayBinding
             var emp = new Employee() { Name = "Tom", Title = "Developer" };
             return emp;
         }
-        
+
     }
 }
