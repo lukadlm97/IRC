@@ -11,11 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDataBindingTwoWay", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingList", "DataBindingList\DataBindingList.csproj", "{ADC37160-F4D9-404A-A6AB-8D257E3DB6B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConvertDemo", "DataConvertDemo\DataConvertDemo.csproj", "{70E437E1-FAFD-419C-ADC3-479B9F89EDC8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousDemo", "AsynchronousDemo\AsynchronousDemo.csproj", "{BC08B800-EEEA-47D8-BFBE-D54E27B7DBF6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControl", "TabControl\TabControl.csproj", "{A6B76259-E33F-426D-8047-F61105EDEBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeView.csproj", "{6E20ADE6-4698-4A14-89A1-98274573F60A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,6 @@ Global
 		{ADC37160-F4D9-404A-A6AB-8D257E3DB6B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC37160-F4D9-404A-A6AB-8D257E3DB6B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC37160-F4D9-404A-A6AB-8D257E3DB6B7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70E437E1-FAFD-419C-ADC3-479B9F89EDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70E437E1-FAFD-419C-ADC3-479B9F89EDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70E437E1-FAFD-419C-ADC3-479B9F89EDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70E437E1-FAFD-419C-ADC3-479B9F89EDC8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC08B800-EEEA-47D8-BFBE-D54E27B7DBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC08B800-EEEA-47D8-BFBE-D54E27B7DBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC08B800-EEEA-47D8-BFBE-D54E27B7DBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{A6B76259-E33F-426D-8047-F61105EDEBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B76259-E33F-426D-8047-F61105EDEBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B76259-E33F-426D-8047-F61105EDEBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E20ADE6-4698-4A14-89A1-98274573F60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E20ADE6-4698-4A14-89A1-98274573F60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E20ADE6-4698-4A14-89A1-98274573F60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E20ADE6-4698-4A14-89A1-98274573F60A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
