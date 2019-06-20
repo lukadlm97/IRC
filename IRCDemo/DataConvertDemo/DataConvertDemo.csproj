@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ADC37160-F4D9-404A-A6AB-8D257E3DB6B7}</ProjectGuid>
+    <ProjectGuid>{70E437E1-FAFD-419C-ADC3-479B9F89EDC8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>DataBindingList</RootNamespace>
-    <AssemblyName>DataBindingList</AssemblyName>
+    <RootNamespace>DataConvertDemo</RootNamespace>
+    <AssemblyName>DataConvertDemo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,8 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataConverter.cs" />
-    <Compile Include="Employee.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
