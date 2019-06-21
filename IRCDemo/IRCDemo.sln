@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeView", "TreeView\TreeVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAnimation", "WPFAnimation\WPFAnimation.csproj", "{3B54912F-E84C-4D80-BA36-C131B03C5659}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationProp", "AnimationProp\AnimationProp.csproj", "{B3BF8799-4A74-4774-99FF-79F7ABF25FBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{3B54912F-E84C-4D80-BA36-C131B03C5659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B54912F-E84C-4D80-BA36-C131B03C5659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B54912F-E84C-4D80-BA36-C131B03C5659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BF8799-4A74-4774-99FF-79F7ABF25FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BF8799-4A74-4774-99FF-79F7ABF25FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BF8799-4A74-4774-99FF-79F7ABF25FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BF8799-4A74-4774-99FF-79F7ABF25FBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
