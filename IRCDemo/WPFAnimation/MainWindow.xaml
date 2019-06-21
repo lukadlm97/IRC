@@ -1,0 +1,30 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAnimation"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="WPFAnimation.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+        <Rectangle
+            Width="50"
+            Height="50"
+            Fill="Red"
+            Canvas.Top="50"
+            Canvas.Left="50"
+            Stroke="Yellow"
+            StrokeThickness="5"/>
+        <Ellipse Width="100"
+                 Height="50"
+                 Fill="#FFF4F4F5"
+                 Canvas.Top="50"
+                 Canvas.Left="150"
+                 Stroke="Black"/>
+        <Line X1="0" Y1="0" X2="100" Y2="100" Stroke="Red" StrokeThickness="2"/>
+        <Path Data="M410.03509,12.596491" Fill="#FFF4F4F5" Height="1" Canvas.Left="410.035" Stretch="Fill" Stroke="Black" Canvas.Top="12.596" Width="1"/>
+        <TextBlock x:Name="textBlock" Height="150.486" Canvas.Left="410.035" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="100.707" Width="228.07"/>
+        <ed:Arc ArcThickness="1" ArcThicknessUnit="Percent" EndAngle="360" Fill="#FFFBFB14" Height="164.912" Canvas.Left="250" Stretch="None" Stroke="Black" StartAngle="90" Canvas.Top="209.088" Width="328.456"/>
+    </Canvas>
+</Window>
